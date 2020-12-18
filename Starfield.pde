@@ -69,7 +69,7 @@ class OddballParticle extends Particle
   {
     fill (198, 199, 189);
     noStroke();
-    square((float)gibbon, (float)monkey, 20);
+    rect((float)gibbon, (float)monkey, 20, 20, 5);
   }
   void move()
   {
